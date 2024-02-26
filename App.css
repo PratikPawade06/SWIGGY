@@ -1,0 +1,106 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+   border-radius: 50px;
+}
+
+.listitem > ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-container{
+    margin-left: 35px;
+    width: 18vw;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+       
+}
+
+.card-container:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform(0.3s) ease-out;
+    border: 1px solid black;
+}
+
+.search{
+    margin-left: 30px;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.search-btn{
+    padding: 5px;
+    width: fit-content;
+    background-color: gray;
+    color: white;
+    margin-left: 30px;
+}
+
+.card-img{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.rest-card{
+    margin: 5px;
+}
+
+.card-collection{
+    
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.shimmer-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 35px;
+}
+
+.shimmer-card h3{
+    width: 250px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.shimmer-container .shimmer-search{
+    width: 180px;
+    height: 30px;
+    background-color: #f0f0f0;
+    margin-left: 35px;
+    
+}
+
+.login{
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
